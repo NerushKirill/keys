@@ -28,6 +28,6 @@ sudo cp -r /home/user/new_serv/.ssh /home/$user_name/
 
 sudo chmod 700 /home/$user_name/.ssh
 sudo chmod 600 /home/$user_name/.ssh/authorized_keys
-sudo chown $user_name:$user_name /home/$user_name/.ssh
+sudo chown -R $user_name:$user_name /home/$user_name/.ssh
 
 echo "DONE"
